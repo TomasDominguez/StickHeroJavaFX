@@ -32,6 +32,7 @@ public class main extends Application {
        root.getChildren().add(canvas);
        primaryStage.setScene(new Scene(root));
        primaryStage.show();
+       
     }
       
     private void drawShapes(GraphicsContext gc) {
@@ -67,7 +68,6 @@ public class main extends Application {
   
         //Creamos el Segundo triangulo del pañuelo.
 
-        
         //Terminamos la creación.
         gc.closePath();
         }
